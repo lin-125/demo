@@ -16,10 +16,6 @@ public class DemoApplication {
         t=new test();
         SpringApplication.run(DemoApplication.class, args);
     }
-//    @RequestMapping
-//    public String index() {
-//        return "hello springboot";
-//    }
     @RequestMapping("getA")
     public int getA()
     {
